@@ -32,9 +32,18 @@ body {
     text-transform: uppercase;
 }
 
+.choice:hover {
+    color: yellow;
+    background-color: red;
+}
+
 /*selection*/
 #choice {
+    margin-top: 2%;
+}
 
+#choice div {
+    text-transform: uppercase;
 }
 
 #result {
