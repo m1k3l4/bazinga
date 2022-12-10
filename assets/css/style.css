@@ -3,6 +3,7 @@ body {
     padding: 0;
     max-width: 1200px;
     text-align: center;
+    background-color: blanchedalmond;
 }
 
 /*top image*/
@@ -46,12 +47,30 @@ body {
     text-transform: uppercase;
 }
 
+/*result*/
 #result {
-
+    margin-top: 3%;
 }
 
-#final_score {
+#result h1 {
+    text-transform: uppercase;
+    color: red;
+}
 
+/*score*/
+#final_score {
+    margin-top: 3%;
+    padding: 2% 0 2% 0;
+    border: 2px solid;
+    border-color: brown;
+}
+
+#final_score h1 {
+    
+}
+
+#final_score h2 {
+    text-transform: uppercase;
 }
 
 #game_rules {
