@@ -1,12 +1,19 @@
 body {
     margin: 0 auto;
+    padding: 0;
     max-width: 1200px;
     text-align: center;
 }
 
 
 #top_image {
-
+    background-image: url('../images/top_image.png');
+    min-height: 450px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #buttons {
