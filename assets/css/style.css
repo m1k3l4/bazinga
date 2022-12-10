@@ -5,7 +5,7 @@ body {
     text-align: center;
 }
 
-
+/*top image*/
 #top_image {
     background-image: url('../images/top_image.png');
     min-height: 450px;
@@ -16,10 +16,23 @@ body {
     background-size: cover;
 }
 
+/*buttons section*/
 #buttons {
-
+    margin-top: 10%;
 }
 
+.choice {
+    width: 150px;
+    height: 80px;
+    color: rgba(66, 5, 13, 0.795);
+    background-color: rgba(255, 255, 0, 0.781);
+    border: 5px solid;
+    border-color: black;
+    margin: 3%;
+    text-transform: uppercase;
+}
+
+/*selection*/
 #choice {
 
 }
