@@ -12,29 +12,75 @@ let sheldon;
 let leonard;
 
 //function for opponent random choice
-function leonardChoice() {
+function sheldonChoice() {
     let randomValue = Math.floor(Math.random() * 5) + 1;
 
     if (randomValue === 1) {
-        leonard = 'rock';
+        sheldon = 'rock';
     } else if (randomValue === 2) {
-        leonard = 'paper';
+        sheldon = 'paper';
     } else if (randomValue === 3) {
-        leonard = 'scissors';
+        sheldon = 'scissors';
     } else if (randomValue === 4) {
-        leonard = 'lizard';
+        sheldon = 'lizard';
     } else {
-        leonard = 'spock';
+        sheldon = 'spock';
     }
-    displayLeonardChoice.innerHTML = leonard;
+    displaySheldonChoice.innerHTML = sheldon;
 }
 
-leonardChoice();
+//test - to be removed
+sheldonChoice();
 
 
 //function to evaluate and generate result
 function resultEvaluation() {
 
+    if (leonard === 'rock' && sheldon === 'paper') {
+        gameResult = 'Bazinga! You lose!';
+    } else if (leonard === 'rock' && sheldon === 'scissors') {
+        gameResult = 'You win!';
+    } else if (leonard === 'rock' && sheldon === 'lizard') {
+        gameResult = 'You win!';
+    } else if (leonard === 'rock' && sheldon === 'spock') {
+        gameResult = 'Bazinga! You lose!';
+    } else if (leonard === 'paper' && sheldon === 'rock') {
+        gameResult = 'You win!';
+    } else if (leonard === 'paper' && sheldon === 'scissors') {
+        gameResult = 'Bazinga! You lose!';
+    } else if (leonard === 'paper' && sheldon === 'lizard') {
+        gameResult = 'Bazinga! You lose!';
+    } else if (leonard === 'paper' && sheldon === 'spock') {
+        gameResult = 'You win!';
+    } else if (leonard === 'scissors' && sheldon === 'rock') {
+        gameResult = 'Bazinga! You lose!';
+    } else if (leonard === 'scissors' && sheldon === 'paper') {
+        gameResult = 'You win!';
+    } else if (leonard === 'scissors' && sheldon === 'lizard') {
+        gameResult = 'You win!';
+    } else if (leonard === 'scissors' && sheldon === 'spock') {
+        gameResult = 'Bazinga! You lose!';
+    } else if (leonard === 'lizard' && sheldon === 'rock') {
+        gameResult = 'Bazinga! You lose!';
+    } else if (leonard === 'lizard' && sheldon === 'paper') {
+        gameResult = 'You win!';
+    } else if (leonard === 'lizard' && sheldon === 'scissors') {
+        gameResult = 'Bazinga! You lose!';
+    } else if (leonard === 'lizard' && sheldon === 'spock') {
+        gameResult = 'You win!';
+    } else if (leonard === 'spock' && sheldon === 'rock') {
+        gameResult = 'You win!';
+    } else if (leonard === 'spock' && sheldon === 'paper') {
+        gameResult = 'Bazinga! You lose!';
+    } else if (leonard === 'spock' && sheldon === 'scissors') {
+        gameResult = 'You win!';
+    } else if (leonard === 'spock' && sheldon === 'lizard') {
+        gameResult = 'Bazinga! You lose!';
+    } else {
+        gameResult = 'Draw!';
+    }
+
+    displayResult.innerHTML = gameResult;
 }
 
 //function to increment score value
