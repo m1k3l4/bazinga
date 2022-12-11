@@ -69,15 +69,33 @@ body {
 }
 
 #final_score h1 {
-    
+    color: rgb(83, 80, 255);
 }
 
 #final_score h2 {
     text-transform: uppercase;
 }
 
-#game_rules {
+/*games rules*/
+#game_rules { 
+    margin-top: 2%;
+}
 
+#game_rules a {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+#game_rules a:hover {
+    color: violet;
+    font-size: 3em;  
+}
+
+#game_rules a:visited {
+    color: rgb(28, 139, 0);
+    text-decoration: none;
+    font-size: 2.5em;
 }
 
 /*footer code from my previous site https://m1k3l4.github.io/armocromia-lovers/*/
