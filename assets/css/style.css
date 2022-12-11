@@ -41,13 +41,23 @@ body {
     background-color: red;
 }
 
-/*selection*/
+/*global selection*/
 #choice {
     margin-top: 2%;
 }
 
 #choice div {
     text-transform: uppercase;
+}
+
+/*leonard's slection*/
+#player_leonard {
+    color: orangered;
+}
+
+/*sheldon's selection*/
+#player_sheldon {
+    color: blue;
 }
 
 /*result*/
