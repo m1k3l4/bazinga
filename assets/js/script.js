@@ -89,7 +89,7 @@ function scoreValue() {
     if (gameResult === 'You win!') {
         globalLeonardScore = ++globalLeonardScore;
     } else if (gameResult === 'Bazinga! You lose!') {
-        globalSheldondScore = ++globalSheldondScore;   
+        globalSheldondScore = ++globalSheldonScore;   
     }
     document.getElementById('leonard_score').innerHTML = globalLeonardScore;
     document.getElementById('sheldon_score').innerHTML = globalSheldonScore;
