@@ -85,7 +85,14 @@ function resultEvaluation() {
 
 //function to increment score value
 function scoreValue() {
-
+    //let score = document.getElementById('outcome');
+    if (gameResult === 'You win!') {
+        globalLeonardScore = ++globalLeonardScore;
+    } else if (gameResult === 'Bazinga! You lose!') {
+        globalSheldondScore = ++globalSheldondScore;   
+    }
+    document.getElementById('leonard_score').innerHTML = globalLeonardScore;
+    document.getElementById('sheldon_score').innerHTML = globalSheldonScore;
 }
 
 //main code to get player choice and invoke functions
