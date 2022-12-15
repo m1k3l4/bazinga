@@ -30,7 +30,7 @@ function sheldonChoice() {
 }
 
 //test - to be removed
-sheldonChoice();
+//sheldonChoice();
 
 
 //function to evaluate and generate result
@@ -96,3 +96,11 @@ function scoreValue() {
 }
 
 //main code to get player choice and invoke functions
+allOptions.forEach(option => option.addEventListener('click', (btn_click) => {
+    leonard = btn_click.target.id;
+    //alert = leonard;
+    displayLeonardChoice.innerHTML = leonard;
+    sheldonChoice();
+    resultEvaluation();
+    scoreValue();
+}));
