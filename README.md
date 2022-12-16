@@ -105,6 +105,49 @@ For the Bazing Website I have used two fonts:
 * I tested the webpage with the following browsers: Chrome, Firefox, Edge. It works with all of them.
 * I used devtools to confirm that the different sections of this website are all responsive and good looking in all the screen size.
 
+### Validator Testing
+
+* I have tested my website with two tools:
+
+- HTML: I have used W3C validator for HTML, [W3C validator](https://validator.w3.org/) and I have found no error;
+
+- CSS: I have used W3C validator for CSS, [W3C validator](https://jigsaw.w3.org/css-validator/) and I have found no error;
+
+- JS: I have used JSHint JavaScript validator for JS, [JSHint](https://jshint.com/)  and I have found no error;
+
+### Lighthouse
+
+* I have also used Lighthouse that is a feature of Google Chrome developer tools, to test the accesibility score of my website.
+
+* I have tested it for both mobile and desktop devices:
+
+![Lighthouse desktop](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-lighthouse-desktop.PNG)
+
+![Lighthouse mobile](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-lighthouse-mobile.PNG)
+
+### Unfixed Bugs
+
+There are no bugs at the moment in the project.
+
+
+## Deployment
+
+This website was deployed using Github. I performed the following steps:
+
+1. Connect to GitHub page
+2. Go into Repository section and opt for the repository you have selected before
+3. From the horizontal menu bar select the Setting option
+4. Now you have a vertical menu bar, select the option Pages
+5. Down Build and deployment field, you have the Source option and a dropdown menu. Select branch 'Master' and save
+6. The page will generate a website URL. You can find a preview at the screenshot below:
+
+![Deployment URL](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-deployment.PNG)
+
+Please find attached the link below:
+
+https://m1k3l4.github.io/bazinga/
+
+! Keep in mind that the URL could need some time before to be completely live.
 
 
 
