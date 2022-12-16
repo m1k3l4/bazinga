@@ -125,3 +125,32 @@ footer {
     color: #335cce;
 }
 
+
+/*media queries*/
+
+@media screen and (max-width: 1024px) {
+    #top_image{
+        min-height: 280px;
+        width: 100%;
+        height: auto;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    #top_image {
+        min-height: 250px;
+        width: 100%;
+        height: auto;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #top_image{
+        min-height: 200px;
+        width: 100%;
+        height: auto;
+        background-position: center;
+    }
+}
