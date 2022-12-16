@@ -2,7 +2,7 @@
 
 ![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-readme.PNG)
 
-[Play here if you dare!] (https://m1k3l4.github.io/bazinga/)
+[Play here if you dare](https://m1k3l4.github.io/bazinga/)
 
 Bazinga is a website where you can test your luck playing at the game "Rock, Paper, Scissors, Lizard, Spock".
 
@@ -56,6 +56,22 @@ At the bottom of the website, useser have the footer section.
 - Users can keep in touch using the social media linked to the website.
 
 ![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-footer.PNG)
+
+# Typography and Color scheme
+
+## Fonts
+
+For the Bazing Website I have used two fonts:
+
+### Roboto
+### Rubik
+
+## Color scheme
+
+* For the game keys I have used the yellow shade beacuse because it recalls the name in the logo.
+* For the result I have used the red shade beacuse because it recalls the name in the logo.
+* For score and rules I have used a blue shade to complement the primary colors palette (red,yellow,blue) give a sense of optical continuity.
+
 
 
 
