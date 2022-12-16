@@ -39,6 +39,7 @@ body {
 .choice:hover {
     color: yellow;
     background-color: red;
+    cursor: pointer;
 }
 
 /*global selection*/
