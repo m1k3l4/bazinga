@@ -11,7 +11,7 @@ body {
 
 /*top image*/
 #top_image {
-    background-image: url('../images/top_image.png');
+    background-image: url('../images/top_image.webp');
     min-height: 450px;
     max-width: 100%;
     height: auto;
