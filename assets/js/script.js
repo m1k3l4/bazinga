@@ -29,8 +29,6 @@ function sheldonChoice() {
     displaySheldonChoice.innerHTML = sheldon;
 }
 
-//test - to be removed
-//sheldonChoice();
 
 
 //function to evaluate and generate result
@@ -85,7 +83,6 @@ function resultEvaluation() {
 
 //function to increment score value
 function scoreValue() {
-    //let score = document.getElementById('outcome');
     if (gameResult === 'You win!') {
         globalLeonardScore = ++globalLeonardScore;
     } else if (gameResult === 'Bazinga! You lose!') {
@@ -98,7 +95,6 @@ function scoreValue() {
 //main code to get player choice and invoke functions
 allOptions.forEach(option => option.addEventListener('click', (btn_click) => {
     leonard = btn_click.target.id;
-    //alert = leonard;
     displayLeonardChoice.innerHTML = leonard;
     sheldonChoice();
     resultEvaluation();
