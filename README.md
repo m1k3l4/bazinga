@@ -72,6 +72,41 @@ For the Bazing Website I have used two fonts:
 * For the result I have used the red shade beacuse because it recalls the name in the logo.
 * For score and rules I have used a blue shade to complement the primary colors palette (red,yellow,blue) give a sense of optical continuity.
 
+# Technologies
+
+* To help me to create this website, I have used different technologies:
+
+ [HTML](https://www.w3schools.com/html/)
+
+ [CSS](https://www.w3schools.com/css/default.asp)
+
+ [Javascript](https://www.w3schools.com/js/)
+
+ [Google Fonts](https://fonts.google.com/)
+
+ [Font Awesome](https://fontawesome.com/start)
+
+ [Github](https://github.com/)
+
+ [Gitpod](https://gitpod.io)
+
+ [Google DevTools](https://developer.chrome.com/docs/devtools/)
+
+ [HTML Validator](https://validator.w3.org/)
+
+ [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+ [CSS Formatter](https://www.cleancss.com/css-beautify/)
+
+ [Previewer](https://ui.dev/amiresponsive)
+
+ ## Testing 
+
+* I tested the webpage with the following browsers: Chrome, Firefox, Edge. It works with all of them.
+* I used devtools to confirm that the different sections of this website are all responsive and good looking in all the screen size.
+
+
+
 
 
 
