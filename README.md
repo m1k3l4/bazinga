@@ -96,7 +96,7 @@ For the Bazing Website I have used two fonts:
 
  [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
- [CSS Formatter](https://www.cleancss.com/css-beautify/)
+ [JS Validator](https://jshint.com/)
 
  [Previewer](https://ui.dev/amiresponsive)
 
@@ -148,6 +148,18 @@ Please find attached the link below:
 https://m1k3l4.github.io/bazinga/
 
 ! Keep in mind that the URL could need some time before to be completely live.
+
+### Content 
+
+* Contents for were written by me
+* All the icons in the website were taken from [Font Awesome](https://fontawesome.com/)
+* For JS code I have used as reference [MDN](https://developer.mozilla.org/en-US/)
+
+### Media
+
+* Photos used in the website have been taken from Google Images from open sources sites :
+- https://wallpapercave.com
+- https://realpython.com/
 
 
 
