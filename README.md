@@ -72,8 +72,8 @@ At the bottom of the website, useser have the footer section.
 
 For the Bazing Website I have used two fonts:
 
-### Roboto
-### Rubik
+### Roboto Slab
+### Rubik Gemstone
 
 ## Color scheme
 
