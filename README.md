@@ -14,6 +14,7 @@ The website consists of the following sections:
 
 * Header
 * Game
+* Result
 * Score
 * Rules
 * Footer
@@ -32,13 +33,21 @@ It mantains the mystery on what the game is, so the audience is more curious and
 
 In the second section of the website, users can find directly the game itself. This makes the navigation more engaging, because users can test how to play in a straightforward way.
 
-There are two choices : Leonard and Sheldon. Audience can Win, draw or being "Bazinged" in case of defeat.
+There are two choices : Leonard and Sheldon. Player can Win, draw or being "Bazinged" in case of defeat.
 
-![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/game-itself.PNG)
+![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-game-buttons.PNG)
+
+### Result
+
+* Player can select an option clicking on related button. The selected element value will be assigned to the leonard variable.
+* A random selection for Sheldon will be generated using math fucntion to pick up a number between 1 and 5, and assign a choice.
+* An if else iteration will evaluate players choice and generate the final result.
+
+![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-result.PNG)
 
 ### Score
 
-Below the game users can find the scoreboard. It takes count of many times Leonard(audience) won and how many times Sheldon(AI)won.
+Below the game users can find the scoreboard. It takes count of many times Leonard (player) won and how many times Sheldon (AI) won. The function is called to store and increase the golbal score.
 
 ![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-scores.PNG)
 
@@ -107,7 +116,7 @@ For the Bazing Website I have used two fonts:
 
 ### Validator Testing
 
-* I have tested my website with two tools:
+* I have tested my website with three tools:
 
 - HTML: I have used W3C validator for HTML, [W3C validator](https://validator.w3.org/) and I have found no error;
 
@@ -125,9 +134,9 @@ For the Bazing Website I have used two fonts:
 
 ![Lighthouse mobile](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-lighthouse-mobile.PNG)
 
-### Unfixed Bugs
+### Fixed Bugs
 
-There are no bugs at the moment in the project.
+Fixed bug due to icons inside the button area.
 
 
 ## Deployment
