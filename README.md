@@ -1,6 +1,6 @@
 # Bazinga
 
-![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-readme.PNG)
+![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-preview.PNG)
 
 [Play here if you dare](https://m1k3l4.github.io/bazinga/)
 
@@ -27,7 +27,7 @@ The image used for the header, is the famous logo with the word "Bazinga" that v
 
 It mantains the mystery on what the game is, so the audience is more curious and will be led to interact with the website to find out more.
 
-![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-logo.PNG)
+![Responsive Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-logo.PNG)
 
 ### The Game
 
