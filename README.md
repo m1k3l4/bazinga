@@ -1,6 +1,6 @@
 # Bazinga
 
-![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-preview.PNG)
+![Responsive Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-preview.PNG)
 
 [Play here if you dare](https://m1k3l4.github.io/bazinga/)
 
@@ -27,7 +27,7 @@ The image used for the header, is the famous logo with the word "Bazinga" that v
 
 It mantains the mystery on what the game is, so the audience is more curious and will be led to interact with the website to find out more.
 
-![Responsive Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-logo.PNG)
+![Header](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-logo.PNG)
 
 ### The Game
 
@@ -35,7 +35,7 @@ In the second section of the website, users can find directly the game itself. T
 
 There are two choices : Leonard and Sheldon. Player can Win, draw or being "Bazinged" in case of defeat.
 
-![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-game-buttons.PNG)
+![Game](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-game-buttons.PNG)
 
 ### Result
 
@@ -43,19 +43,19 @@ There are two choices : Leonard and Sheldon. Player can Win, draw or being "Bazi
 * A random selection for Sheldon will be generated using math fucntion to pick up a number between 1 and 5, and assign a choice.
 * An if else iteration will evaluate players choice and generate the final result.
 
-![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-result.PNG)
+![Result](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-result.PNG)
 
 ### Score
 
 Below the game users can find the scoreboard. It takes count of many times Leonard (player) won and how many times Sheldon (AI) won. The function is called to store and increase the golbal score.
 
-![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-scores.PNG)
+![Score](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-scores.PNG)
 
 ### Rules
 
 In the rules section, users can click on the navigation link and the rules scheme wil be downloaded automatically.
 
-![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-rules.PNG)
+![Rules](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-rules.PNG)
 
 ### Footer
 
@@ -64,7 +64,7 @@ At the bottom of the website, useser have the footer section.
 - Bazinga links to the relevant social media sites are included in the footer. These links will redirect users to a new tab.
 - Users can keep in touch using the social media linked to the website.
 
-![Responsice Mockup](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-footer.PNG)
+![Footer](https://github.com/m1k3l4/bazinga/blob/main/docs/images/bazinga-footer.PNG)
 
 # Typography and Color scheme
 
