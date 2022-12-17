@@ -163,6 +163,7 @@ https://m1k3l4.github.io/bazinga/
 * Contents for were written by me
 * All the icons in the website were taken from [Font Awesome](https://fontawesome.com/)
 * For JS code I have used as reference [MDN](https://developer.mozilla.org/en-US/)
+* Footer code taken from my first project: https://github.com/m1k3l4/armocromia-lovers
 
 ### Media
 
